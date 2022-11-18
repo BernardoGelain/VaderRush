@@ -1,0 +1,1 @@
+Jogo 100% em Python utilizando biblioteca Pygame com temática star wars.
