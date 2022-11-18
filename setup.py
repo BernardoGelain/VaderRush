@@ -15,3 +15,4 @@ setup(name='Vader Rush',
       description = 'Game',
       options = {'build_exe': build_options},
       executables = executables)
+
