@@ -48,17 +48,7 @@ def placar(contador):
     texto = fonte.render("Pontuação de " + nome + ": " +str(contador), True, white)
     gameDisplay.blit(texto, (10, 10))
 
-def arquivo(nome,email,desvios):
-    texto = f"Pontos de {nome}: {desvios} \n{email}"
-    try:
-        nome_arquivo = 'pontos_de_'+nome+'.txt'
-        arquivo = open(nome_arquivo, 'r+')
-        arquivo.writelines(desvios)
-    except FileNotFoundError:
-        arquivo = open(nome_arquivo, 'w+')
-        arquivo.writelines(texto)
-   
-
+  
 
 def morte():
     pygame.mixer.Sound.play(somExplosao)
