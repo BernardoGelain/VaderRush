@@ -35,7 +35,7 @@ def text_objects(texto, font):
 
 
 def texto(texto):
-    fonte = pygame.font.Font(None, 50)
+    fonte = pygame.font.Font(None, 51)
     TextSurf, TextRect = text_objects(texto, fonte)
     TextRect.center = ((largura/2, altura/2))
     gameDisplay.blit(TextSurf, TextRect)
